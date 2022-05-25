@@ -82,4 +82,22 @@ router.get('/edit/:id', withAuth, (req, res) => {
     });
 });
 
+router.post("/", (req, res)=>{
+  User.create(req.body)
+  .then(response => {
+    console.log("POST",response)
+    req.session.save(() => {
+      req.session.user_id = response.id
+      req.session.username = response.username
+      req.session.email = response.email
+      req.session.loggedIn = true
+      res.json(response)
+    })
+  })
+  .catch(err => {
+    console.log(err);
+    res.status(500).json(err)
+  })
+})
+
 module.exports = router;
