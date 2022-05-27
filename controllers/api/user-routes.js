@@ -98,6 +98,33 @@ router.post("/", (req, res)=>{
     console.log(err);
     res.status(500).json(err)
   })
+});
+
+router.post("/login", (req, res)=>{
+  User.findOne({
+    where: {
+      email: req.body.email
+    }
+  })
+  .then(response => {
+    if (response.checkPassword(req.body.password)){
+    console.log("POST",response)
+    req.session.save(() => {
+      req.session.user_id = response.id
+      req.session.username = response.username
+      req.session.email = response.email
+      req.session.loggedIn = true
+      res.json(response)
+    })
+  }else{
+    res.status(500).json("Invalid Password")
+  }
+  })
+  .catch(err => {
+    console.log(err);
+    res.status(500).json(err)
+  })
 })
+
 
 module.exports = router;

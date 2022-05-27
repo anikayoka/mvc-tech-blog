@@ -96,4 +96,16 @@ router.get('/login', (req, res) => {
   res.render('login');
 });
 
+
+router.post('/logout', (req, res) => {
+  req.session.user_id = ""
+  req.session.username = ""
+  req.session.email = ""
+  req.session.loggedIn = false
+  req.session.destroy(function(){
+  res.redirect('/');
+  })
+});
+
+
 module.exports = router;
