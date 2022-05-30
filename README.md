@@ -10,10 +10,10 @@
 
   ## Built With
 
-  SQL
-  Hadnlebars.js
-  Sequelize
-  Express-session
+ * SQL
+ * Hadnlebars.js
+ * Sequelize
+ * Express-session
 
   ## Links
 
