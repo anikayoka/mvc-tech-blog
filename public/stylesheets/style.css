@@ -8,13 +8,16 @@ body, html {
   margin: 0;
   font-family: sans-serif;
   color: #333;
+  background-color: honeydew;
 }
 
 a {
   text-decoration: none;
-  color: indigo;
+  color: #B53471;
   font-weight: bold;
   transition: color .1s;
+  padding: 15px;
+  font-size: large;
 }
 
 a:hover {
@@ -37,9 +40,9 @@ button:hover {
 }
 
 .post-list {
-  margin: 0;
+  margin: 0 0 0 -15%;
   padding: 0;
-}
+} 
 
 textarea, input {
   padding: .5%;
@@ -68,15 +71,15 @@ form label {
 .wrapper {
   width: 100%;
   min-height: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
+  max-width: 1500px;
+  margin: 0;
   display: flex;
   flex-direction: column;
 }
 
 header {
-  border-bottom: 3px solid aquamarine;
-  background-color: khaki;
+  border-bottom: 1px solid #30336b;
+  background-color: #f9ca24;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -85,6 +88,8 @@ header {
 
 header h1 {
   font-size: 2em;
+  color: #30336b;
+  font-weight: bolder;
 }
 
 main {
@@ -98,11 +103,12 @@ main {
   padding: 0;
   cursor: pointer;
   text-decoration: none;
-  color: indigo;
-  font-size: 100%;
+  color: #B53471;
+  font-size: large;
   font-weight: bold;
   transition: color .1s;
   margin-left: 16px;
+  margin-right: 30px;
 }
 
 .btn-no-style:hover {
@@ -162,11 +168,13 @@ main {
 }
 
 footer {
-  border-top: 3px solid khaki;
-  background-color: honeydew;
-  color: indigo;
+  border-top: 1px solid #30336b;
+  background-color: #c7ecee;
+  color: #30336b;
   display: flex;
   justify-content: center;
   padding: 1%;
   font-size: 110%;
+  font-style: italic;
+  font-weight: bold;
 }
