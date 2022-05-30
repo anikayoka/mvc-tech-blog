@@ -20,9 +20,13 @@
   * [Deployed](https://floating-shelf-93264.herokuapp.com)
   * [Github](https://github.com/anikayoka/takeit-notes)
   
-  ## Srcreenshot
+  ## Srcreenshots
   
-  ![screencapture-localhost-3001-2022-05-05-14_25_20](https://user-images.githubusercontent.com/88905488/166995538-39a3ea2d-0b3a-4faf-aa61-09b182234dd9.png)
+ ![screencapture-localhost-3001-login-2022-05-30-01_40_56](https://user-images.githubusercontent.com/88905488/170925053-de9b7869-cbe8-48c3-94fa-8f19dffd66f9.png)
+
+![screencapture-localhost-3001-2022-05-30-01_40_40](https://user-images.githubusercontent.com/88905488/170925066-4c22bb0a-f6ae-452e-8c9b-ee278283de81.png)
+
+![screencapture-localhost-3001-dashboard-2022-05-30-01_40_25](https://user-images.githubusercontent.com/88905488/170925078-27fae67e-50d8-498c-ac6b-e1cc5b1f3c5a.png)
   
   
   ## License
