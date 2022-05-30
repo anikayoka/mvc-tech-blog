@@ -17,8 +17,8 @@
 
   ## Links
 
-  * [Deployed](https://floating-shelf-93264.herokuapp.com)
-  * [Github](https://github.com/anikayoka/takeit-notes)
+  * [Deployed](https://morning-cove-12800.herokuapp.com/)
+  * [Github](https://github.com/anikayoka/mvc-tech-blog)
   
   ## Srcreenshots
   
